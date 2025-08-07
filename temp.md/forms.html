@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dhanalakshmi</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <h1>SUBMISSION FORM</h1>
+        <form action="index.php" method="POST">
+            <label for="username">enter username:</label>
+            <input type="text" id="username" placeholder="eg.sameera">
+            <br><br>
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="eg.vuvogf@gmail.com">
+            <br><br> 
+            <label for="password">enter password:</label>
+            <input type="password" id="password" max length="10">
+    
+    <br><br>
+    <label for="age">Date of Birth:</label>
+            <input type="number" id="dd/mm/year" placeholder="dd-mm-year">
+      <br><br>
+      <h3>Choose your option</h3>
+      <label for="gender">female:</label>
+      <input type="radio" name="gender" value="female">
+      <br>
+      <label for="gender">male:</label>
+      <input type="radio" name="gender" value="male">
+      <br>
+      <label for="gender">other:</label>
+      <input type="radio" name="gender" value="other">
+        <br>
+        <h3>Choose your Domain</h3>
+        <label for="question">Select one:</label>
+        <select name="question" id="question">
+            <option value="q1">Computer Science Engineering</option>
+            <option value="q2"> Electronics and Communication Engineering</option>
+            <option value="q3">Electrical and Electronics Engineering</option>
+            <option value="q4">Mechanical Engineering</option>
+            <option value="q5"> Civil Engineering</option>
+            <option value="q6">Others</option>
+        </select>
+        <br><br>
+        <h3>About yourself</h3>
+        <div id="box"><p>Type here</p></div>
+        <br>
+
+        <input type="Reset" id="Reset">
+        <br><br>
+        <input type="submit"id=submit>
+    </body>
+</html>
